@@ -42,7 +42,7 @@ class MyApp
 	public bootUp()
     {
 		ReactDOM.render(
-            <MyComponent>
+            <MyComponent person="Huseyin">
             </MyComponent>,
             document.querySelector("#myAppStartsHere")
         );
